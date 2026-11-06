@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactividad con el DOM</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <div class="card">
+        <h1>Contador de clicks</h1>
+        
+        <div class="counter" id="contador">0</div>
+
+        <button class="btn-click" id="btnClic">Haz Clic Aquí</button>
+
+        <table class="table-log">
+            <thead>
+                <tr>
+                    <th>Nº Clic</th>
+                    <th>Hora</th>
+                </tr>
+            </thead>
+            <tbody id="tablaCuerpo">
+            </tbody>
+        </table>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
